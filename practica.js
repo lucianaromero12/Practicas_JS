@@ -1,10 +1,10 @@
-var nota=prompt ("Ingrese su nota");
-console.log("Nota: ", nota);
-if (nota >= 5) {
+var nota1=prompt ("Ingrese su nota");
+console.log("Nota: ", nota1);
+if (nota1 >= 5) {
     document.write("¡Estoy aprobado!");
 }
 
-else if (nota < 5 && nota >= 3) {
+else if (nota1 < 5 && nota1 >= 3) {
     document.write("¡Estoy en recuperación!");
 } else {
     document.write("¡Estoy reprobado!");
